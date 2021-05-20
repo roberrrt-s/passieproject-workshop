@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Passieproject Workshop</title>
+	<link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+	<main>
+		<header>
+			<h1>Vul hier je gewicht en herhalingen in!</h1>
+		</header>
+		<section>
+			<form>
+				<label for="weight">Zwaarte van gewichten:</label>
+				<input id="weight" name="weight" type="number" />
+				<label for="repetitions">Aantal herhalingen:</label>
+				<input id="repetitions" name="repetitions" type="number" />
+
+				<button id="bereken">Bereken score</button>
+			</form>
+		</section>
+		<section>
+			<p>Score: <span id="result"></span></p>
+		</section>
+	</main>
+	<script src="./scripts/global.js"></script>
+</body>
+</html>

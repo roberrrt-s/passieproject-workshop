@@ -1,0 +1,26 @@
+body {
+	padding: 1em;
+}
+
+form {
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 1em;
+}
+
+input {
+	margin-bottom: 2em;
+	margin-right: auto;
+}
+
+h1 {
+	font-family: Arial, sans-serif
+}
+
+button {
+	margin-right: auto;
+}
+
+p {
+	margin: 1em;
+}
